@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">WNengUtilLib</string>
     <string name="action_settings">Settings</string>
+
+
+    <string name="errormsg_cantopenimage">打开图片失败!!</string>
+    <string name="errormsg_cantplayaudio">播放音频失败!!</string>
+    <string name="errormsg_cantplayvedio">打开视频失败!!</string>
+    <string name="errormsg_cantopencamera">打开相机失败!!</string>
+    <string name="errormsg_cantopentaperecord">打开录音机失败!!</string>
+    <string name="errormsg_cantopenvideocamera">打开摄像机失败!!</string>
+    <string name="errormsg_cantopenbrowser">您没有安装浏览器,不能下载!!</string>
+    <string name="errormsg_cantopenandroidmarket_forinstall">亲,您木有安装第三方下载平台!</string>
+    <string name="errormsg_cantopenandroidmarket_forweb">您没有安装浏览器,无法打开网页!</string>
+    <string name="errormsg_cantopenandroidmarket_call">号码不对哦</string>
+
+    <string name="fwtitle_selectimage">选择图像</string>
+    <string name="fwtitle_selectaudio">选择音频</string>
+    <string name="fwtitle_selectvedio">选择视频</string>
+    <string name="image_icon_dec">app icon</string>
+    <string name="error_url">无法打开该链接</string>
+
 </resources>

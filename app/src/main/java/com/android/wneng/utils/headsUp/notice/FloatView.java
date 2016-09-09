@@ -18,8 +18,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.hotbitmapgg.moequest.R;
+import com.android.wneng.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

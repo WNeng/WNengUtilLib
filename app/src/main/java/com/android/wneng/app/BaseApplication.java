@@ -10,7 +10,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-
+/**
+ * Created by wneng on 16/9/8.
+ */
 public class BaseApplication extends MultiDexApplication {
 	
 	private static final String TAG = BaseApplication.class.getSimpleName();

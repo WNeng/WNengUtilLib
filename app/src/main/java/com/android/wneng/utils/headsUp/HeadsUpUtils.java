@@ -9,6 +9,9 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Build;
 
+import com.android.wneng.utils.headsUp.notice.HeadsUp;
+import com.android.wneng.utils.headsUp.notice.HeadsUpManager;
+
 
 public class HeadsUpUtils
 {
