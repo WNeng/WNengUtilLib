@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.android.wneng.R;
+import com.android.wneng.app.AppManager;
 import com.android.wneng.utils.Helper;
 import com.android.wneng.utils.jump.BaseConstants;
 import com.android.wneng.utils.statusbar.StatusBarCompat;
@@ -27,6 +28,8 @@ public abstract class RxBaseActivity extends RxAppCompatActivity {
     {
 
         super.onCreate(savedInstanceState);
+        AppManager.getAppManager().addActivity(this);
+        getAnimParams();
         //设置布局内容
         setContentView(getLayoutId());
         //初始化黄油刀控件绑定框架
@@ -37,6 +40,7 @@ public abstract class RxBaseActivity extends RxAppCompatActivity {
         initToolBar();
         //适配4.4系统的StatusBar
         StatusBarCompat.compat(this);
+
     }
 
 
@@ -46,6 +50,7 @@ public abstract class RxBaseActivity extends RxAppCompatActivity {
 
         super.onDestroy();
         ButterKnife.unbind(this);
+        AppManager.getAppManager().finishActivity(this);
     }
 
     public abstract int getLayoutId();
