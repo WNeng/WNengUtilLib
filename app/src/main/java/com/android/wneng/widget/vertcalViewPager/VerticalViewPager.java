@@ -19,7 +19,7 @@ import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import so.bubu.cityguide.wiget.vertcalViewPager.transforms.DefaultTransformer;
+import com.android.wneng.widget.vertcalViewPager.transforms.DefaultTransformer;
 
 public class VerticalViewPager extends ViewPager {
 

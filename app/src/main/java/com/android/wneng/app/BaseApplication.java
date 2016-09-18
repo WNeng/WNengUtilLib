@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.support.multidex.MultiDexApplication;
 
 import com.android.wneng.utils.Helper;
+import com.facebook.stetho.Stetho;
 
 import java.lang.ref.WeakReference;
 import java.util.LinkedList;
@@ -32,6 +33,8 @@ public class BaseApplication extends MultiDexApplication {
 		super.onCreate();
 		
 		sInstance = this;
+
+		Stetho.initializeWithDefaults(this);
 	}
 
 

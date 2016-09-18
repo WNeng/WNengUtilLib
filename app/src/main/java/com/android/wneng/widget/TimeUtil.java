@@ -3,13 +3,13 @@ package com.android.wneng.widget;
 import android.annotation.SuppressLint;
 import android.util.Log;
 
+import com.android.wneng.utils.Helper;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
-
-import so.bubu.lib.helper.Helper;
 
 /**
  * 转换UTC时间为自己的格式
